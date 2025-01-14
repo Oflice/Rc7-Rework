@@ -131,7 +131,7 @@ UICorner3.Parent = Close
 local UIStroke3 = Instance.new("UIStroke")
 UIStroke3.Parent = Close
 Close.MouseButton1Click:Connect(function ()
-script.Parent.Parent.Visible = false
+Main.Visible = false
 end)
 local Open = Instance.new("TextButton")
 Open.FontFace = Font.new("rbxassetid://12187372382",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
@@ -150,7 +150,6 @@ Open.Parent = XSPloitSS
 Open.MouseButton1Click:Connect(function()
 Main.Visible = not Main.Visible
 end)
-LocalScript3.Parent = Open
 local UIStroke4 = Instance.new("UIStroke")
 UIStroke4.Parent = Open
 local UICorner4 = Instance.new("UICorner")
